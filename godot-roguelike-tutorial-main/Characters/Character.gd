@@ -1,4 +1,4 @@
-@icon("res://calma calabreso.png")
+@icon("res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/knight_idle_anim_f0.png")
 
 extends CharacterBody2D
 class_name Character

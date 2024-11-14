@@ -5,3 +5,4 @@ extends StaticBody2D
 
 func open() -> void:
 	animation_player.play("open")
+

@@ -309,7 +309,6 @@ script = ExtResource("6")
 sprite_frames = SubResource("17")
 animation = &"move"
 frame = 1
-script = null
 
 [node name="CollisionShape2D" parent="." index="2"]
 position = Vector2(1, 2)

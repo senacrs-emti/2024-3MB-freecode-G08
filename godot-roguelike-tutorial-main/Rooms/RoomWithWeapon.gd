@@ -10,3 +10,4 @@ func _ready() -> void:
 	weapon.position = weapon_pos.position
 	weapon.on_floor = true
 	add_child(weapon)
+

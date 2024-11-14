@@ -13,11 +13,11 @@ shader_parameter/active = false
 
 [sub_resource type="ParticleProcessMaterial" id="2"]
 spread = 180.0
+gravity = Vector3(0, 0, 0)
 initial_velocity_min = 20.0
 initial_velocity_max = 40.0
 angular_velocity_min = 10.0
 angular_velocity_max = 40.0
-gravity = Vector3(0, 0, 0)
 turbulence_enabled = true
 
 [node name="Weapon" type="Node2D"]

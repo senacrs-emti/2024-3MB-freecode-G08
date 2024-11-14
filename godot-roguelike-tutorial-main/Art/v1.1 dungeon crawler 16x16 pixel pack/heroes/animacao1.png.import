@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5xhn704n4ckf"
-path="res://.godot/imported/crossbow.png-00ab778145ade3ef8cb75a538a3cd5ed.ctex"
+uid="uid://cleeqw5fmwvtj"
+path="res://.godot/imported/animacao1.png-6f05c4caa7994e4ade255b7ff0eb0ecc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/crossbow.png"
-dest_files=["res://.godot/imported/crossbow.png-00ab778145ade3ef8cb75a538a3cd5ed.ctex"]
+source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/animacao1.png"
+dest_files=["res://.godot/imported/animacao1.png-6f05c4caa7994e4ade255b7ff0eb0ecc.ctex"]
 
 [params]
 

@@ -1,11 +1,12 @@
-[gd_scene load_steps=25 format=3 uid="uid://dftvfv1jceskv"]
+[gd_scene load_steps=20 format=3 uid="uid://dftvfv1jceskv"]
 
 [ext_resource type="PackedScene" uid="uid://bheousdjxqa14" path="res://Characters/Character.tscn" id="1"]
-[ext_resource type="Texture2D" uid="uid://beuxbt1hqtnxl" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/knight_run_spritesheet.png" id="3"]
 [ext_resource type="Script" path="res://Characters/Player/Player.gd" id="4"]
 [ext_resource type="Script" path="res://Characters/Player/PlayerFSM.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://csi6hyjrtbjrq" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/personagem.png" id="5_fpklg"]
 [ext_resource type="PackedScene" uid="uid://bn6jjdha1ecvj" path="res://Weapons/Sword.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://db12hrnbh00y2" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/animacao2.png" id="6_b3s48"]
+[ext_resource type="Texture2D" uid="uid://cleeqw5fmwvtj" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/animacao1.png" id="7_8l65d"]
 [ext_resource type="Texture2D" uid="uid://5s650l0opflc" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png" id="9"]
 
 [sub_resource type="AtlasTexture" id="13"]
@@ -23,30 +24,6 @@ region = Rect2(32, 0, 16, 16)
 [sub_resource type="AtlasTexture" id="16"]
 atlas = ExtResource("9")
 region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="7"]
-atlas = ExtResource("3")
-region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="8"]
-atlas = ExtResource("3")
-region = Rect2(16, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="9"]
-atlas = ExtResource("3")
-region = Rect2(32, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="10"]
-atlas = ExtResource("3")
-region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="11"]
-atlas = ExtResource("3")
-region = Rect2(64, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="12"]
-atlas = ExtResource("3")
-region = Rect2(80, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="17"]
 animations = [{
@@ -77,22 +54,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("7")
+"texture": ExtResource("6_b3s48")
 }, {
 "duration": 1.0,
-"texture": SubResource("8")
-}, {
-"duration": 1.0,
-"texture": SubResource("9")
-}, {
-"duration": 1.0,
-"texture": SubResource("10")
-}, {
-"duration": 1.0,
-"texture": SubResource("11")
-}, {
-"duration": 1.0,
-"texture": SubResource("12")
+"texture": ExtResource("7_8l65d")
 }],
 "loop": true,
 "name": &"move",
@@ -284,10 +249,11 @@ hp = 4
 script = ExtResource("5")
 
 [node name="AnimatedSprite2D" parent="." index="1"]
-position = Vector2(-2.38419e-07, 2)
-scale = Vector2(0.46875, 0.367188)
+position = Vector2(-0.715821, 4)
+scale = Vector2(0.512695, 0.375)
 sprite_frames = SubResource("17")
-animation = &"idle"
+animation = &"move"
+offset = Vector2(1, 0)
 
 [node name="CollisionShape2D" parent="." index="2"]
 position = Vector2(0, 3)

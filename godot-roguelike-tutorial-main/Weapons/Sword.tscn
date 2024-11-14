@@ -505,8 +505,8 @@ _data = {
 
 [node name="Sprite2D" parent="Node2D" index="0"]
 material = SubResource("6")
-position = Vector2(2.99999, 3.00001)
-scale = Vector2(0.739157, 0.667794)
+position = Vector2(-0.680186, 1.04246)
+scale = Vector2(0.628422, 0.468471)
 texture = ExtResource("3_u3pma")
 
 [node name="Hitbox" parent="Node2D/Sprite2D" index="0"]

@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://jvc34qam0obx" path="res://Weapons/Weapon.tscn" id="1"]
 [ext_resource type="Script" path="res://Weapons/Crossbow.gd" id="2"]
-[ext_resource type="Texture2D" uid="uid://bn21fhm5o3tep" path="res://Art/Crossbow.png" id="3"]
 [ext_resource type="Shader" path="res://Characters/Player/White.gdshader" id="4"]
+[ext_resource type="Texture2D" uid="uid://5xhn704n4ckf" path="res://Art/crossbow.png" id="4_0s7c2"]
 [ext_resource type="Texture2D" uid="uid://c8n4t3xhxp8yj" path="res://Art/19+ icons/iceB.png" id="5"]
 
 [sub_resource type="ShaderMaterial" id="2"]
@@ -239,8 +239,11 @@ rotation_offset = 180
 
 [node name="Sprite2D" parent="Node2D" index="0"]
 material = SubResource("2")
-position = Vector2(0, -3)
-texture = ExtResource("3")
+position = Vector2(-2.99999, -2.00001)
+rotation = 1.2322
+scale = Vector2(0.490418, 0.325837)
+skew = 0.0453786
+texture = ExtResource("4_0s7c2")
 
 [node name="CollisionShape2D" parent="PlayerDetector" index="0"]
 position = Vector2(-9, -1)

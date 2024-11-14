@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://jvc34qam0obx" path="res://Weapons/Weapon.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://evihltxw1ud3" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/effects (new)/slash_effect_anim_spritesheet.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://dfnyu2au1agfw" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/heroes/knight/weapon_sword_1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://njc4iuqie82a" path="res://Art/espadaagua.png" id="3_u3pma"]
 [ext_resource type="Shader" path="res://Characters/Player/White.gdshader" id="4"]
 [ext_resource type="Texture2D" uid="uid://d1e3hlbucgbfq" path="res://Art/19+ icons/swingB.png" id="6"]
 
@@ -505,13 +505,16 @@ _data = {
 
 [node name="Sprite2D" parent="Node2D" index="0"]
 material = SubResource("6")
-position = Vector2(7, 3)
-texture = ExtResource("3")
+position = Vector2(2.99999, 3.00001)
+scale = Vector2(0.739157, 0.667794)
+texture = ExtResource("3_u3pma")
 
 [node name="Hitbox" parent="Node2D/Sprite2D" index="0"]
+position = Vector2(2.86992, -1.05886)
 knockback_force = 200
 
 [node name="CollisionShape2D" parent="Node2D/Sprite2D/Hitbox" index="0"]
+position = Vector2(3.82657, -4.23546)
 scale = Vector2(1, 4)
 shape = SubResource("1")
 

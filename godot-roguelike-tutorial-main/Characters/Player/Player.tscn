@@ -249,6 +249,7 @@ hp = 4
 script = ExtResource("5")
 
 [node name="AnimatedSprite2D" parent="." index="1"]
+texture_filter = 1
 position = Vector2(-0.715821, 4)
 scale = Vector2(0.512695, 0.375)
 sprite_frames = SubResource("17")

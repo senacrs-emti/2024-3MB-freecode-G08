@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ur8vioytywl3"
-path="res://.godot/imported/slime_run_anim_f1.png-0b8bf65ff62a2201fc489e6d970e2b71.ctex"
+uid="uid://dap7xife3l2ts"
+path="res://.godot/imported/boss7-removebg-preview.png-4cc9dbf990b86b8d63b0cb0fe177e635.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/slime/slime_run_anim_f1.png"
-dest_files=["res://.godot/imported/slime_run_anim_f1.png-0b8bf65ff62a2201fc489e6d970e2b71.ctex"]
+source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/slime/boss7-removebg-preview.png"
+dest_files=["res://.godot/imported/boss7-removebg-preview.png-4cc9dbf990b86b8d63b0cb0fe177e635.ctex"]
 
 [params]
 

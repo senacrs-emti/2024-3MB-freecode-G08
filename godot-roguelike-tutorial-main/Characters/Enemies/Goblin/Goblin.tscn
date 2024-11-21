@@ -1,11 +1,16 @@
-[gd_scene load_steps=30 format=3 uid="uid://dlx82s7ngu5af"]
+[gd_scene load_steps=23 format=3 uid="uid://dlx82s7ngu5af"]
 
 [ext_resource type="PackedScene" uid="uid://dkpis7w2h85hp" path="res://Characters/Enemies/Enemy.tscn" id="1"]
-[ext_resource type="Texture2D" uid="uid://6nmcbyj7hu8v" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/goblin_idle_spritesheet.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://g4wrospvmdxf" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/goblin_run_spritesheet.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://5s650l0opflc" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png" id="4"]
 [ext_resource type="Script" path="res://Characters/Enemies/Goblin/Goblin.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://c1pwelu7k5xmw" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-removebg-preview.png" id="5_rx1re"]
 [ext_resource type="Script" path="res://Characters/Enemies/Goblin/GoblinFSM.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://b62gr8mmcdcgg" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-2-removebg-preview.png" id="6_j1ir7"]
+[ext_resource type="Texture2D" uid="uid://dnn44hh18nelm" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-3-removebg-preview.png" id="7_f8m7u"]
+[ext_resource type="Texture2D" uid="uid://dbsoyf2kwdg4l" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-4-removebg-preview.png" id="8_jigg5"]
+[ext_resource type="Texture2D" uid="uid://bnomjaonkyivc" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-5-removebg-preview.png" id="9_0cpl7"]
+[ext_resource type="Texture2D" uid="uid://fimgmqkvf6bb" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-6-removebg-preview.png" id="10_18rrj"]
+[ext_resource type="Texture2D" uid="uid://cwb1j84ser75" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-7-removebg-preview.png" id="11_wi0p7"]
 
 [sub_resource type="AtlasTexture" id="13"]
 atlas = ExtResource("4")
@@ -22,54 +27,6 @@ region = Rect2(32, 0, 16, 16)
 [sub_resource type="AtlasTexture" id="16"]
 atlas = ExtResource("4")
 region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="1"]
-atlas = ExtResource("2")
-region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="2"]
-atlas = ExtResource("2")
-region = Rect2(16, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="3"]
-atlas = ExtResource("2")
-region = Rect2(32, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="4"]
-atlas = ExtResource("2")
-region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="5"]
-atlas = ExtResource("2")
-region = Rect2(64, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="6"]
-atlas = ExtResource("2")
-region = Rect2(80, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="7"]
-atlas = ExtResource("3")
-region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="8"]
-atlas = ExtResource("3")
-region = Rect2(16, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="9"]
-atlas = ExtResource("3")
-region = Rect2(32, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="10"]
-atlas = ExtResource("3")
-region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="11"]
-atlas = ExtResource("3")
-region = Rect2(64, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="12"]
-atlas = ExtResource("3")
-region = Rect2(80, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="17"]
 animations = [{
@@ -92,22 +49,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("1")
-}, {
-"duration": 1.0,
-"texture": SubResource("2")
-}, {
-"duration": 1.0,
-"texture": SubResource("3")
-}, {
-"duration": 1.0,
-"texture": SubResource("4")
-}, {
-"duration": 1.0,
-"texture": SubResource("5")
-}, {
-"duration": 1.0,
-"texture": SubResource("6")
+"texture": ExtResource("5_rx1re")
 }],
 "loop": true,
 "name": &"idle",
@@ -115,22 +57,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("7")
+"texture": ExtResource("6_j1ir7")
 }, {
 "duration": 1.0,
-"texture": SubResource("8")
+"texture": ExtResource("7_f8m7u")
 }, {
 "duration": 1.0,
-"texture": SubResource("9")
+"texture": ExtResource("8_jigg5")
 }, {
 "duration": 1.0,
-"texture": SubResource("10")
+"texture": ExtResource("9_0cpl7")
 }, {
 "duration": 1.0,
-"texture": SubResource("11")
+"texture": ExtResource("10_18rrj")
 }, {
 "duration": 1.0,
-"texture": SubResource("12")
+"texture": ExtResource("11_wi0p7")
 }],
 "loop": true,
 "name": &"move",
@@ -308,7 +250,6 @@ script = ExtResource("6")
 [node name="AnimatedSprite2D" parent="." index="1"]
 sprite_frames = SubResource("17")
 animation = &"move"
-frame = 1
 
 [node name="CollisionShape2D" parent="." index="2"]
 position = Vector2(1, 2)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh3kr4txnuu20"
-path="res://.godot/imported/fly_anim_f1.png-41bc48400eca8599d9bfa3c6ceeea1a9.ctex"
+uid="uid://cwb1j84ser75"
+path="res://.godot/imported/mob1-7-removebg-preview.png-927df5716de3794414d3670a522bc4f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/fly_anim_f1.png"
-dest_files=["res://.godot/imported/fly_anim_f1.png-41bc48400eca8599d9bfa3c6ceeea1a9.ctex"]
+source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/mob1-7-removebg-preview.png"
+dest_files=["res://.godot/imported/mob1-7-removebg-preview.png-927df5716de3794414d3670a522bc4f1.ctex"]
 
 [params]
 

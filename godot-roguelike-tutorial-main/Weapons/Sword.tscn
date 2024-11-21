@@ -505,21 +505,21 @@ _data = {
 
 [node name="Sprite2D" parent="Node2D" index="0"]
 material = SubResource("6")
-position = Vector2(-0.680186, 1.04246)
-scale = Vector2(0.628422, 0.468471)
+position = Vector2(-3.52412e-06, 1)
+scale = Vector2(0.429323, 0.368921)
 texture = ExtResource("3_u3pma")
 
 [node name="Hitbox" parent="Node2D/Sprite2D" index="0"]
-position = Vector2(2.86992, -1.05886)
+position = Vector2(4.18876, -0.546804)
 knockback_force = 200
 
 [node name="CollisionShape2D" parent="Node2D/Sprite2D/Hitbox" index="0"]
-position = Vector2(3.82657, -4.23546)
+position = Vector2(2.25043, -3.01878)
 scale = Vector2(1, 4)
 shape = SubResource("1")
 
 [node name="ChargeParticles" parent="Node2D/Sprite2D" index="1"]
-position = Vector2(5.65685, -4.24264)
+position = Vector2(5.31397, -2.05619)
 
 [node name="SlashSprite" type="Sprite2D" parent="." index="1"]
 visible = false

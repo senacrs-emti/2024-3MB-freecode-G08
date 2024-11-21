@@ -1,11 +1,14 @@
-[gd_scene load_steps=22 format=3 uid="uid://e6hrtln6o6gf"]
+[gd_scene load_steps=21 format=3 uid="uid://e6hrtln6o6gf"]
 
 [ext_resource type="PackedScene" uid="uid://dkpis7w2h85hp" path="res://Characters/Enemies/Enemy.tscn" id="1"]
-[ext_resource type="Texture2D" uid="uid://d0bfixe0mujtg" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/fly_anim_spritesheet.png" id="2"]
 [ext_resource type="Script" path="res://Characters/Enemies/Flying Creature/FlyingCreatureFSM.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://5s650l0opflc" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png" id="4"]
 [ext_resource type="Script" path="res://Characters/Hitbox.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://bhmbdoeq33n75" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-1-removebg-preview.png" id="5_j68p7"]
 [ext_resource type="Script" path="res://Characters/Enemies/Flying Creature/FlyingCreature.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://75ytcbq7e1op" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-2-removebg-preview.png" id="6_fpbx0"]
+[ext_resource type="Texture2D" uid="uid://cqo2gq522cu5m" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-3-removebg-preview.png" id="7_6bnmk"]
+[ext_resource type="Texture2D" uid="uid://d16qyjstn8tyu" path="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-4-removebg-preview.png" id="8_fui1t"]
 
 [sub_resource type="AtlasTexture" id="5"]
 atlas = ExtResource("4")
@@ -21,22 +24,6 @@ region = Rect2(32, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="8"]
 atlas = ExtResource("4")
-region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="1"]
-atlas = ExtResource("2")
-region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="2"]
-atlas = ExtResource("2")
-region = Rect2(16, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="3"]
-atlas = ExtResource("2")
-region = Rect2(32, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="4"]
-atlas = ExtResource("2")
 region = Rect2(48, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="9"]
@@ -60,16 +47,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("1")
+"texture": ExtResource("5_j68p7")
 }, {
 "duration": 1.0,
-"texture": SubResource("2")
+"texture": ExtResource("6_fpbx0")
 }, {
 "duration": 1.0,
-"texture": SubResource("3")
+"texture": ExtResource("7_6bnmk")
 }, {
 "duration": 1.0,
-"texture": SubResource("4")
+"texture": ExtResource("8_fui1t")
 }],
 "loop": true,
 "name": &"default",
@@ -242,7 +229,6 @@ script = ExtResource("3")
 
 [node name="AnimatedSprite2D" parent="." index="1"]
 sprite_frames = SubResource("9")
-frame = 1
 
 [node name="CollisionShape2D" parent="." index="2"]
 position = Vector2(0, 1)

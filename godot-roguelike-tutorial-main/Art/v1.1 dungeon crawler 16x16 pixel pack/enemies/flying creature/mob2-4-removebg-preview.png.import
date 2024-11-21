@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgl40k00lk5y4"
-path="res://.godot/imported/goblin_idle_anim_f0.png-e5be75773c4238209d1afe8271ded169.ctex"
+uid="uid://d16qyjstn8tyu"
+path="res://.godot/imported/mob2-4-removebg-preview.png-b3b58bd0cffc4227e15bd6f4f7e7831f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/goblin_idle_anim_f0.png"
-dest_files=["res://.godot/imported/goblin_idle_anim_f0.png-e5be75773c4238209d1afe8271ded169.ctex"]
+source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-4-removebg-preview.png"
+dest_files=["res://.godot/imported/mob2-4-removebg-preview.png-b3b58bd0cffc4227e15bd6f4f7e7831f.ctex"]
 
 [params]
 

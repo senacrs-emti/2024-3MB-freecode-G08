@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cutnunw486upn"
-path="res://.godot/imported/goblin_run_anim_f2.png-e4f0f534bf78c1d2524527adfc249230.ctex"
+uid="uid://75ytcbq7e1op"
+path="res://.godot/imported/mob2-2-removebg-preview.png-1a8dc35bcc636dbbbd195f0fccaf7a55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/goblin/goblin_run_anim_f2.png"
-dest_files=["res://.godot/imported/goblin_run_anim_f2.png-e4f0f534bf78c1d2524527adfc249230.ctex"]
+source_file="res://Art/v1.1 dungeon crawler 16x16 pixel pack/enemies/flying creature/mob2-2-removebg-preview.png"
+dest_files=["res://.godot/imported/mob2-2-removebg-preview.png-1a8dc35bcc636dbbbd195f0fccaf7a55.ctex"]
 
 [params]
 

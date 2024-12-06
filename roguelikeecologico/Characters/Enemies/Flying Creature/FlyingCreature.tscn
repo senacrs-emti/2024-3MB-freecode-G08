@@ -67,7 +67,7 @@ animations = [{
 radius = 3.16228
 
 [sub_resource type="CircleShape2D" id="11"]
-radius = 4.0
+radius = 9.48683
 
 [sub_resource type="Animation" id="12"]
 tracks/0/type = "value"

@@ -304,8 +304,8 @@ _data = {
 }
 
 [sub_resource type="CapsuleShape2D" id="23"]
-radius = 4.0
-height = 8.0
+radius = 12.75
+height = 25.5
 
 [node name="SlimeBoss" instance=ExtResource("1")]
 scale = Vector2(8, 8)
@@ -350,7 +350,7 @@ damage = 2
 knockback_force = 500
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox" index="0"]
-position = Vector2(0, 3)
+position = Vector2(4.625, 0.875)
 rotation = 1.5708
 shape = SubResource("23")
 disabled = true
